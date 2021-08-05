@@ -1,0 +1,4 @@
+127.0.0.1 - - [05/Aug/2021:12:13:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Aug/2021:12:13:07 +0530] "GET /SpringMVCBasic/ HTTP/1.1" 200 402
+0:0:0:0:0:0:0:1 - - [05/Aug/2021:12:14:44 +0530] "GET /SpringMVCBasic/studentFormAction?studName=irfan HTTP/1.1" 200 373
+0:0:0:0:0:0:0:1 - - [05/Aug/2021:12:14:47 +0530] "GET /SpringMVCBasic/enquiry HTTP/1.1" 200 300

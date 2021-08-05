@@ -1,0 +1,14 @@
+127.0.0.1 - - [24/May/2021:18:32:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:32:26 +0530] "GET /SpringMVCRestAPI/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:33:09 +0530] "GET /SpringMVCRestAPI/user/ HTTP/1.1" 200 210
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:34:09 +0530] "GET /SpringMVCRestAPI/ HTTP/1.1" 200 74
+127.0.0.1 - - [24/May/2021:18:50:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:50:34 +0530] "GET /SpringMVCRestAPI/ HTTP/1.1" 200 74
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:51:04 +0530] "GET /SpringMVCRestAPI/user/2 HTTP/1.1" 200 58
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:51:10 +0530] "GET /SpringMVCRestAPI/user/20 HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:51:22 +0530] "GET /SpringMVCRestAPI/user/2 HTTP/1.1" 200 58
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:52:12 +0530] "GET /SpringMVCRestAPI/user/2 HTTP/1.1" 200 58
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:52:17 +0530] "GET /SpringMVCRestAPI/user/3 HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [24/May/2021:18:52:21 +0530] "GET /SpringMVCRestAPI/user/1 HTTP/1.1" 200 58
+127.0.0.1 - - [24/May/2021:23:23:36 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/May/2021:23:23:40 +0530] "GET /SpringMVCRestAPI/WEB-INF/classes/com/springmvc/controller/HelloWorldRestController.java HTTP/1.1" 404 682

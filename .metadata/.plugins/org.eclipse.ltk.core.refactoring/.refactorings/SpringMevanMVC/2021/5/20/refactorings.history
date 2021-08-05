@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringMevanMVC/src/main/resources/com/irfan/springmvc/controller/StudentApplicationController&apos; to &apos;StudentApplicationController.java&apos;" description="Rename resource &apos;StudentApplicationController&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/com/irfan/springmvc/controller/StudentApplicationController" name="StudentApplicationController.java" stamp="1620825727852" updateReferences="true"/>
+</session>

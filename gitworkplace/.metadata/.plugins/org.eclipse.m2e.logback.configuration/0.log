@@ -1,0 +1,258 @@
+2021-06-07 17:27:46,105 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-07 17:52:39,775 [Worker-21] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2021-06-11 18:32:54,002 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-16 11:47:51,307 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-16 11:56:02,927 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-16 11:57:15,663 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.springmvc.configuration:SpringMVCHibernateExample:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCHibernetExample\pom.xml.
+2021-07-16 11:57:16,895 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:57:22,457 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:22,500 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:57:22,529 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:22,534 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\HelloWorld\src\test\resources
+2021-07-16 11:57:23,733 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:57:28,908 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:57:28,911 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:28,989 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:57:29,035 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:29,077 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\HelloWorld\src\test\resources
+2021-07-16 11:57:29,899 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:57:33,094 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:57:35,555 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:35,559 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:57:35,562 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:35,564 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\MySpringMVC\src\test\resources
+2021-07-16 11:57:35,983 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:57:40,447 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:40,448 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:57:40,461 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:40,462 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:57:43,068 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:43,090 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:57:43,570 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:57:43,571 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:57:43,594 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\MySpringMVC\src\test\resources
+2021-07-16 11:57:45,552 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:57:45,683 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:45,686 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:57:45,829 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:45,830 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:57:46,662 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:57:47,908 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\pom.xml.
+2021-07-16 11:57:48,104 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\pom.xml.
+2021-07-16 11:57:48,937 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:48,938 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:57:48,949 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:48,950 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\src\test\resources
+2021-07-16 11:57:50,380 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:57:51,558 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:57:52,113 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:57:52,130 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:52,135 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:57:52,170 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:52,172 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\src\test\resources
+2021-07-16 11:57:52,636 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\pom.xml.
+2021-07-16 11:57:52,904 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:SpringDataJPAExample:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoXMLBased\pom.xml.
+2021-07-16 11:57:53,668 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jayshree:com.jayshree:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringHibernateIntegration\pom.xml.
+2021-07-16 11:57:53,854 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:SpringDataJPAExample:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoXMLBased\pom.xml.
+2021-07-16 11:57:55,403 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:55,404 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-07-16 11:57:55,439 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:55,439 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringDataJPADemoXMLBased\src\test\resources
+2021-07-16 11:57:57,012 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:57:57,555 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:57,561 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-07-16 11:57:58,304 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:57:58,305 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringDataJPADemoXMLBased\src\test\resources
+2021-07-16 11:57:58,307 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:57:58,899 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:57:59,499 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\pom.xml.
+2021-07-16 11:57:59,645 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jayshree:com.jayshree:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringHibernateIntegration\pom.xml.
+2021-07-16 11:58:02,155 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:02,156 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:02,166 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:02,167 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringHibernateIntegration\src\test\resources
+2021-07-16 11:58:04,008 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:04,063 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:04,070 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:04,126 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:04,127 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringHibernateIntegration\src\test\resources
+2021-07-16 11:58:06,518 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.irfan:com.irfan:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringHibernateIntegrationIrfan\pom.xml.
+2021-07-16 11:58:06,520 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:07,207 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:07,208 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:07,223 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:07,224 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringHibernateIntegrationIrfan\src\test\resources
+2021-07-16 11:58:09,047 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:09,100 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:09,104 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:09,142 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:09,143 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringHibernateIntegrationIrfan\src\test\resources
+2021-07-16 11:58:11,419 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:11,419 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringJDBCDemo:SpringJDBCDemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringJDBCDemo\pom.xml.
+2021-07-16 11:58:13,342 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:13,345 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCDemo\src\main\resources
+2021-07-16 11:58:13,347 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:13,350 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCDemo\src\test\resources
+2021-07-16 11:58:14,765 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:15,322 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:15,328 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCDemo\src\main\resources
+2021-07-16 11:58:16,112 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:16,118 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:16,123 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCDemo\src\test\resources
+2021-07-16 11:58:16,664 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:58:17,866 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringJDBCPractice:SpringJDBCPractice:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringJDBCPractice\pom.xml.
+2021-07-16 11:58:18,289 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:18,293 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCPractice\src\main\resources
+2021-07-16 11:58:18,294 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:18,297 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCPractice\src\test\resources
+2021-07-16 11:58:19,137 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:19,151 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCPractice\src\main\resources
+2021-07-16 11:58:19,154 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:19,159 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCPractice\src\test\resources
+2021-07-16 11:58:20,440 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:20,874 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan:SpringMVCBasic:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCBasic\pom.xml.
+2021-07-16 11:58:23,231 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:23,234 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:23,238 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:23,241 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCBasic\src\test\resources
+2021-07-16 11:58:24,287 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:25,136 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:25,143 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:25,707 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:25,711 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCBasic\src\test\resources
+2021-07-16 11:58:25,713 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:25,833 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:58:26,365 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:SpringMVCHibernetDemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCHibernetDemo\pom.xml.
+2021-07-16 11:58:28,808 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:28,810 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:28,824 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:28,826 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCHibernetDemo\src\test\resources
+2021-07-16 11:58:30,010 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:31,747 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:31,775 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:31,783 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:31,808 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:31,813 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCHibernetDemo\src\test\resources
+2021-07-16 11:58:31,930 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:58:32,661 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\pom.xml.
+2021-07-16 11:58:32,738 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.springmvc.configuration:SpringMVCHibernateExample:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCHibernetExample\pom.xml.
+2021-07-16 11:58:34,092 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:34,096 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:34,102 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:34,104 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCHibernetExample\src\test\resources
+2021-07-16 11:58:36,430 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:36,443 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-16 11:58:36,872 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:36,878 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:36,880 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCHibernetExample\src\test\resources
+2021-07-16 11:58:39,359 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:SpringMVCRestAPI:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCRestAPI\pom.xml.
+2021-07-16 11:58:39,360 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:40,990 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:40,991 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:40,994 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:40,995 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCRestAPI\src\test\resources
+2021-07-16 11:58:42,425 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:42,431 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:42,600 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:42,604 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCRestAPI\src\test\resources
+2021-07-16 11:58:42,605 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:43,855 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:43,855 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:asbhjk:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\asbhjk\pom.xml.
+2021-07-16 11:58:44,305 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:44,306 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\asbhjk\src\main\resources
+2021-07-16 11:58:44,308 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:44,308 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\asbhjk\src\test\resources
+2021-07-16 11:58:45,446 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\HelloWorld\pom.xml.
+2021-07-16 11:58:46,453 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: co.codejava:MySpringMVC:1.0 @ C:\Users\MSW\newWorkplace\MySpringMVC\pom.xml.
+2021-07-16 11:58:46,472 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:46,473 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\asbhjk\src\main\resources
+2021-07-16 11:58:46,475 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:46,476 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\asbhjk\src\test\resources
+2021-07-16 11:58:46,988 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoConfigBased\pom.xml.
+2021-07-16 11:58:47,237 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringJPADemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\pom.xml.
+2021-07-16 11:58:47,327 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:SpringDataJPAExample:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringDataJPADemoXMLBased\pom.xml.
+2021-07-16 11:58:47,435 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jayshree:com.jayshree:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringHibernateIntegration\pom.xml.
+2021-07-16 11:58:47,905 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.irfan:com.irfan:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringHibernateIntegrationIrfan\pom.xml.
+2021-07-16 11:58:48,015 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringJDBCDemo:SpringJDBCDemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringJDBCDemo\pom.xml.
+2021-07-16 11:58:48,154 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringJDBCPractice:SpringJDBCPractice:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringJDBCPractice\pom.xml.
+2021-07-16 11:58:48,274 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan:SpringMVCBasic:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCBasic\pom.xml.
+2021-07-16 11:58:48,411 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:SpringMVCHibernetDemo:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCHibernetDemo\pom.xml.
+2021-07-16 11:58:48,552 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.springmvc.configuration:SpringMVCHibernateExample:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCHibernetExample\pom.xml.
+2021-07-16 11:58:48,629 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:SpringMVCRestAPI:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\SpringMVCRestAPI\pom.xml.
+2021-07-16 11:58:48,774 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.irfan.spring:asbhjk:0.0.1-SNAPSHOT @ C:\Users\MSW\newWorkplace\asbhjk\pom.xml.
+2021-07-16 11:58:54,451 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:54,463 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:54,467 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:54,473 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\HelloWorld\src\test\resources
+2021-07-16 11:58:54,694 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:54,702 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:54,704 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:54,718 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\MySpringMVC\src\test\resources
+2021-07-16 11:58:54,989 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:54,990 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:54,992 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:54,992 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:55,143 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,144 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:55,146 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,147 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringDataJPADemoJavaAnnoBased\src\test\resources
+2021-07-16 11:58:55,338 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,338 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:55,339 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,340 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringDataJPADemoXMLBased\src\test\resources
+2021-07-16 11:58:55,475 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,476 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:55,477 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,477 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringHibernateIntegration\src\test\resources
+2021-07-16 11:58:55,597 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,598 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:55,602 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:55,602 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringHibernateIntegrationIrfan\src\test\resources
+2021-07-16 11:58:55,644 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:55,646 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCDemo\src\main\resources
+2021-07-16 11:58:55,647 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:55,649 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCDemo\src\test\resources
+2021-07-16 11:58:55,696 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:55,698 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCPractice\src\main\resources
+2021-07-16 11:58:55,699 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:55,702 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringJDBCPractice\src\test\resources
+2021-07-16 11:58:55,802 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:55,804 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:55,805 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:55,808 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCBasic\src\test\resources
+2021-07-16 11:58:56,635 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:56,637 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:56,639 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:56,640 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCHibernetDemo\src\test\resources
+2021-07-16 11:58:56,794 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:56,797 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:56,799 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-16 11:58:56,801 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCHibernetExample\src\test\resources
+2021-07-16 11:58:56,906 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:56,906 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-16 11:58:56,908 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:56,909 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\SpringMVCRestAPI\src\test\resources
+2021-07-16 11:58:56,966 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:56,966 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\asbhjk\src\main\resources
+2021-07-16 11:58:56,968 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-16 11:58:56,969 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MSW\newWorkplace\asbhjk\src\test\resources
+2021-07-16 14:28:10,289 [Worker-8] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
